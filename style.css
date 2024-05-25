@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(14, 14, 59);
+color: aliceblue;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+    display: flex;
+    padding: 100px;
+}
+
+.timerDisplay{
+    background-color: rgb(132, 6, 6);
+    padding: 20px 24px;
+    border-radius: 10px;
+    font-size: 140px;
+    font-weight: bold;
+
+}
+
+.btn{
+    width: 160px;
+    padding: 3px;
+    margin: 11px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(225, 221, 215);
+    background-color: var(--clr);
+
